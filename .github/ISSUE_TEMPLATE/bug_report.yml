@@ -1,0 +1,26 @@
+name: 反馈 Bug
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: 描述
+      description: "请详细描述复现 Bug 的步骤。"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 期望
+      description: "您期望的结果是什么？"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 结果
+      description: "目前得到的结果是什么？"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 软件版本
+      description: "请输入您使用的软件版本信息。"
+      placeholder: "18.8"
