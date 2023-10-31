@@ -1,27 +1,27 @@
-name: 反馈 Bug
-description: 反馈 Bug，请详细描述复现 Bug 的步骤以及对应的版本信息等。
+name: 反馈 Bug (Report Bug)
+description: 请详细描述复现 Bug 的步骤以及对应的版本信息等。(Please provide detailed steps to reproduce the bug, along with the corresponding version information.)
 labels: ["bug"]
 body:
   - type: textarea
     attributes:
-      label: 描述
-      description: "请详细描述复现 Bug 的步骤。"
+      label: 描述 (Description)
+      description: "请详细描述复现 Bug 的步骤。(Please provide detailed steps to reproduce the bug.)"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: 期望
-      description: "您期望的结果是什么？"
+      label: 期望 (Expectation)
+      description: "您期望的结果是什么？(What is the expected outcome or result you are anticipating?)"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: 结果
-      description: "目前得到的结果是什么？"
+      label: 结果 (Result)
+      description: "目前得到的结果是什么？(What is the current outcome or result you have obtained?)"
     validations:
       required: true
   - type: input
     attributes:
-      label: 软件版本
-      description: "请输入您使用的软件版本信息。"
+      label: 软件版本 (Software version)
+      description: "请输入您使用的软件版本信息。(Please let us know the software version you are using.)"
       placeholder: "18.8"
